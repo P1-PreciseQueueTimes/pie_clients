@@ -15,6 +15,8 @@ while True:
 
     requests.post(url, json = out_obj)
 
+    time.sleep(5)
+
 
 
 

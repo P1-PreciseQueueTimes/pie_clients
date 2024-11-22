@@ -3,10 +3,9 @@ import time
 import os
 import requests
 import socket
-import ip_finder
 
 
-wifi_interface = ip_finder.find_ip()
+wifi_interface = "wlan1" 
 sender_mac = "dc:a6:32:54:ac:c5"
 channel = 13
 user = ""

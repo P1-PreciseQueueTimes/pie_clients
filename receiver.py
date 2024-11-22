@@ -6,7 +6,7 @@ import socket
 
 
 wifi_interface = "wlan1" 
-sender_mac = "dc:a6:32:54:ac:c5"
+sender_mac = "58:cf:79:db:00:34"
 channel = 13
 user = ""
 

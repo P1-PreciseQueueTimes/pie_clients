@@ -3,7 +3,18 @@ import time
 import os
 import requests
 import socket
+import subprocess
 
+set_time = False
+
+while not set_time:
+	try:
+		sync_time = requests.get("http://localhost:5000/get/testing/time").text
+		subprocess.run(["sudo","timedatectl","set-time",sync_time])
+		set_time = True
+
+	except Exception:
+		pass
 
 wifi_interface = "wlan1" 
 sender_mac = "58:cf:79:db:00:34"

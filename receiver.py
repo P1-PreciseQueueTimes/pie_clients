@@ -18,7 +18,7 @@ while not set_time:
 
 		sync_time = requests.get("http://localhost:5000/get/testing/time").text
 
-		subprocess.run(["sudo","date","-s",f"@{sync_time}"])
+		subprocess.run(["sudo","date","+%s","-s",f"@{sync_time}"])
 		set_time = True
 
 

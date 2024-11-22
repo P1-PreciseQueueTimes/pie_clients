@@ -9,7 +9,8 @@ wifi_interface = "wlan1"
 sender_mac = "dc:a6:32:54:ac:c5"
 channel = 13
 user = ""
-url = "https://washington-removed-explore-designer.trycloudflare.com/post/testing/receiver"
+
+url = "https://louisiana-trading-courtesy-chris.trycloudflare.com/post/testing/receiver"
 
 old_mac = ""
 old_time = 0
